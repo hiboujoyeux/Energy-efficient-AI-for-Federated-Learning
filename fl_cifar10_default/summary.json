@@ -1,0 +1,14 @@
+{
+    "final_loss": 1.5460040683563525,
+    "final_accuracy": 0.7347,
+    "best_accuracy": 0.7441,
+    "best_round": 346,
+    "mean_round_time": 5.147695098638534,
+    "std_round_time": 3.1089857980558584,
+    "total_training_time": 5147.695098638535,
+    "initial_model_size_MB": 44.805259,
+    "final_model_size_MB": 44.805259,
+    "size_reduction_MB": 0.0,
+    "size_reduction_pct": 0.0,
+    "accuracy_per_MB": 0.01639762868015114
+}
