@@ -1,0 +1,22 @@
+{
+    "final_loss": 4.804442127672628,
+    "best_loss": 2.3625028982710914,
+    "final_accuracy": 0.3817,
+    "best_accuracy": 0.4144,
+    "best_loss_round": 201,
+    "best_acc_round": 288,
+    "mean_round_time": 8.976621510267258,
+    "std_round_time": 5.672673596014067,
+    "total_training_time": 8976.621510267258,
+    "initial_model_size_MB": 85.483851,
+    "final_model_size_MB": 85.483851,
+    "best_acc_model_size_MB": 85.483851,
+    "best_loss_model_size_MB": 85.483851,
+    "size_reduction_MB": 0.0,
+    "size_reduction_pct": 0.0,
+    "size_reduction_best_acc_MB": 0.0,
+    "size_reduction_pct_best_acc": 0.0,
+    "size_reduction_best_loss_MB": 0.0,
+    "size_reduction_pct_best_loss": 0.0,
+    "accuracy_per_MB": 0.004847699245556918
+}
