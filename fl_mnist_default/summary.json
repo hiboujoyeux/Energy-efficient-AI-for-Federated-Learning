@@ -1,14 +1,14 @@
 {
-    "final_loss": 0.06843826410732173,
-    "final_accuracy": 0.9801,
-    "best_accuracy": 0.9813,
-    "best_round": 747,
-    "mean_round_time": 0.4559554357528687,
-    "std_round_time": 0.2890946740604648,
-    "total_training_time": 455.95543575286865,
-    "initial_model_size_MB": 0.409373,
-    "final_model_size_MB": 0.409373,
+    "final_loss": 0.09277910086425421,
+    "final_accuracy": 0.9758,
+    "best_accuracy": 0.9762,
+    "best_round": 999,
+    "mean_round_time": 0.8892295014858246,
+    "std_round_time": 1.4565035900848586,
+    "total_training_time": 889.2295014858246,
+    "initial_model_size_MB": 0.409309,
+    "final_model_size_MB": 0.409309,
     "size_reduction_MB": 0.0,
     "size_reduction_pct": 0.0,
-    "accuracy_per_MB": 2.3941491011864486
+    "accuracy_per_MB": 2.384017942434689
 }
