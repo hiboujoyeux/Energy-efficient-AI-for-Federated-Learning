@@ -1,5 +1,7 @@
 # Energy efficient AI for Federated Learning
 
+Ce repo contient une étude des méthodes de compression appliqué au machine learning, notamment sur des réseaux de neurones multicouches simples et des réseaux de neurones résiduel dans le cadre de l'apprentissage fédéré, ainsi que sur du fine tuning de modèles de langage.
+
 Chaque dossier précédé de `fl` est un entraînement d'un modèle sur une base de données. Un dossier est composé de quatre fichiers (ici dans `fl_mnist_default`) :
 - `fl_mnist_default.ipynb` : un notebook implémentant l'entraînement, ici sur MNIST et sans méthode de compression
 - `checkpoints` : un dossier comportant des modèles à différentes étapes de l'entraînement
