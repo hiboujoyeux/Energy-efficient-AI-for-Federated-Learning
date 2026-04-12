@@ -7,4 +7,4 @@ Le dossier `smollm2` contient les notebooks pour le fine tuning et le benchmark 
 
 Les notebooks `*.ipynb` sont les notebooks contenant le code pour le fine tuning de SmolLM2 135M Instruct.
 
-Les fichiers `*.json` sont les résultats du benchmark pour chacun des modèles entraînés. `row1272` siginifie simplement que c'est le dernier checkpoint (comprenant l'entièreté de l'évaluation), le dataset du benchmark comportant 1272 lignes de données.
+Les fichiers `*.json` sont les résultats du benchmark pour chacun des modèles entraînés. `row1272` siginifie simplement que c'est le dernier checkpoint (comprenant l'entièreté de l'évaluation), le dataset du benchmark comportant 1273 lignes de données.
