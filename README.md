@@ -12,3 +12,5 @@ Le dossier `smollm2` contient les notebooks pour le fine tuning et le benchmark 
 - `SmolLM2_135M_Instruct_finetune` : tous les fichiers relatifs au fine tuning en fp32 + le modèle de base
 - `SmolLM2_135M_Instruct_finetune_bf16` : tous les fichiers relatifs au fine tuning en bf16
 - `SmolLM2_135M_Instruct_finetune_adaptative` : tous les fichiers relatifs au fine tuning avec la méthode adaptative, méthode mélangeant bf16 et fp32 pendant l'entraînement
+
+Le dossier `GRASP` contient le notebook à exécuter pour évaluer la méthode Federated GraSP (FedGraSP) sur le dataset MNIST
