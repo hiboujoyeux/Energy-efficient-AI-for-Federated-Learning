@@ -14,10 +14,31 @@ Le dossier `smollm2` contient les notebooks pour le fine tuning et le benchmark 
 - `SmolLM2_135M_Instruct_finetune_adaptative` : tous les fichiers relatifs au fine tuning avec la méthode adaptative, méthode mélangeant bf16 et fp32 pendant l'entraînement
 
 
-# GRASP
-
-## Description
+# Structure du notebook pour l'élagage
 Le dossier `GRASP` contient le notebook à exécuter pour évaluer la méthode Federated GraSP (FedGraSP) sur le dataset MNIST
+
+## Import des bibliothèques et setup
+Ces premières cellules permettent : 
+Le Chargement des dépendances nécessaires à l'exécution
+Le Chargement des données issues de MNIST
+La définition du réseau de neurones utilisé par la suite (`MLP`)
+
+## Définition des fonctions spécifiques au FedGraSP
+Les fonctions spécifiques à la méthode FedGraSP sont les suivantes : 
+- `compute_local_grasp_scores` : fonction qui permet le calcul du score GraSP
+- `compute_local_grasp_mask_from_scores` : fonction qui permet de définir un masque à l'échelle d'un client à partir des scores GraSP calculés précédemment et d'un ratio d'élagage donné (par défaut 0.2).
+- `aggregate_masks_majority` : fonction utilisée pour l'aggrégation des masques selon la méthode `majority` (selon le taux d'utilisation par les clients).
+- `aggregate_masks_average` : fonction utilisée pour l'aggrégation des masques selon un calcul moyen de l'utilisation d'une connexion.
+- `apply_mask` : fonction qui permet d'appliquer un masque donné en entrée au paramètres du réseau
+
+## Création du client
+Les instances des clients sont créées dans cette section, de la même façon que dans le Federated Learning de référence
+
+## Federated Learning Loop
+La structure est la même que pour le FL de référence. La fonction `federated_learning_loop` est mise à jour pour prendre en compte l'élagage.
+
+## Métriques et Run
+Les dernières cellules permettent de définir les différentes métriques ainsi que de lancer le code en appelant la fonction `federated_learning_loop`
 
 # Structure des notebooks pour la quantification
 
